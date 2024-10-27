@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen">
+  </head>
+<body>
+  <h1>
+    Il gioco del sudoku 
+  </h1>
+<br>
+
+
+<br>
+<form id="form_errori">
+  <p id="modalità">Scegli una modalità</p>
+<input type = "text" id = "scegliModalità" maxlength = 1>
+<button id="scegliMod" type="submit">Conferma</button>
+</form>
+
+<br>
+<table id = "tabella"></table>
+
+<br>
+<br>
+<div id="resocontoPartita">  
+<p id="demo2">errori: 0</p>
+<br>
+<br>
+<p id="rimanenti"></p>
+<br>
+<br>
+<div id="vittoria"> </div>
+<br>
+<button id="soluzione">Soluzione</button>
+</div>
+<br>
+<button id="logout">logout</button>
+<br>
+<div id="classifiche">
+  <p>Classifica modalità classica</p>
+<div id="classifica1"></div>
+<br>
+<p>Classifica modalità libera</p>
+<div id="classifica0"></div>
+</div>
+
+<script src="../javascript/soluzione.js"></script>
+<script src="../javascript/solveSudoku.js"></script>
+<script src="../javascript/sceltaMod.js"></script>
+<script src="../javascript/script1.js"></script>
+<script src="../javascript/logout.js"></script>
+</body>
+
+</html> 

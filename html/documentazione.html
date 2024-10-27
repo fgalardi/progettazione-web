@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>documentazione</title>
+        <link rel="stylesheet" type="text/css" href="../css/documentazione.css" media="screen">
+        
+      </head>
+      <body>
+          <h1>Documentazione</h1>
+          <br>
+          <br>
+          <p>
+           Il servizio implementato consiste in una versione di sudoku online. Appena avviato, il servizio indirizzerà l'utente
+           in una schermata di login. All'interno di tale schermata sarà possibile, oltre all'effettuazione del login, accedere
+           ad una pagina di registrazione tramite l'apposito link, oppure alla schermata riguardante le regole ed il manuale utente.
+           Non sarà possibile effettuare il login senza prima essersi registrati (verrà segnalato un messaggio di errore).
+           La registrazione avviene tramite l'inserimento di un nome utente e di una password da ripetere 2 volte. Una volta registrati
+           correttamente si verrà reindirizzati nella pagina di login nella quale ci potremo loggare. Effettuato il login
+           l'utente è indirizzato verso una pagina nella quale potrà scegliere tra 2 modalità di gioco: modalità classica oppure modalità
+           libera. La prima ci indirizzerà verso una pagina in cui troveremo un classico sudoku parzialmente riempito.
+           La soluzione a questo sudoku sarà unica.
+            Prima però di procedere con l'inserimento dei numeri laddove mancano, è obbligatorio selezionare la difficoltà. Sono ammessi gli input 1,2 o 3.
+           L'1 ci darà l'opportunità di poter sbagliare 10 volte, il 2 di sbagliare 5 volte, il 3 di sbagliarne 3. Se effettuo un errore
+           in una determinata casella, questa diventerà rossa. L'inserimento di una cifra all'interno di una casella che aveva dato
+           errore in precedenza in quella stessa casella, non aggiungerà un nuovo errore al computo totale degli errori.
+           Una volta inserito un valore all'interno di una casella che dovesse essere giusto (dunque la casella non diventa rossa 
+           dopo l'inserimento), questa non potrà più essere modificata, proprio perchè la soluzione possibile è unica e prevede
+           quella determinata cifra in quella determinata casella.
+           Raggiunto il massimo totale degli errori verrà decretata la sconfitta e non sarà più possibile modificare la griglia.
+           Lo stesso vale se clicchiamo sul pulsante di soluzione senza aver terminato la partita. In caso di riempimento di tutta 
+           la tabella verrà decretata la vittoria. Al termine della partita (vittoria o sconfitta) l'unica cosa che sarà possibile fare è
+           il logout che ci reindirizzerà alla pagina di login. In basso alla schermata di gioco sarà possibile vedere una classifica delle partite precedenti a 
+           quella in corso divisa per le 2 modalità. La seconda di queste ultime consiste in un sudoku completamente libero. In questo 
+           caso non ci sarà numero massimo di errori, pertanto sarà disattivato l'input della difficoltà. Lo stesso vale per il 
+           bottone della soluzione. Andando aventi con gli inserimenti, se il sistema si accorge di una configurazione che porta ad un'inevitabile 
+           sconfitta, viene decretata la sconfitta. In questa modalità è possibile cambiare il contenuto delle caselle a piacimento.
+           Le classifiche (di entrambe le modalità) vanno in base alla percentuale di riempimento totale della tabella.
+          </p>
+        </body>
+        </html>

@@ -1,0 +1,11 @@
+body {
+    background-image: url("../immagini/login.jpg");
+    background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+    background-position: center; 
+}
+h1 {
+    color : red;
+}
+p {
+    color: red;
+}

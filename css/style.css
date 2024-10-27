@@ -1,0 +1,99 @@
+h1 {
+    color: red;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+  table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: white;
+  }
+
+  td {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border: 3px solid rgb(114, 51, 51);
+  }
+
+  td input {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    background: transparent;
+  }
+  .casella_cliccata_errata {
+    background: red;
+  }
+  .casella_cliccata_giusta {
+    background: transparent;
+  }
+  .bordo-grande-sx {
+    border-left: 7px solid #000;
+  }
+  .bordo-grande-dx {
+    border-right: 7px solid #000;
+  }
+  .bordo-grande-up {
+    border-top: 7px solid #000;
+  }
+  .bordo-grande-dw {
+    border-bottom: 7px solid #000;
+  }
+   #soluzione {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 150px;
+    overflow: hidden;
+    background-image: url("../immagini/sfondo2.jpg");
+    background-size: cover;
+    background-position: center;
+    border: none; /* Rimuove il bordo del bottone */
+    cursor: pointer
+  }
+  body {
+    background-image: url("../immagini/sfondo.jpg");
+    background-size: cover; /* Adatta l'immagine alle dimensioni dello schermo */
+    background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+    background-position: center; 
+  }
+  
+  #sceltaTipologia {
+    background-color: transparent;
+  }
+  #numero {
+    color: red;
+    font-size: xx-large;
+  }
+  #modalità {
+    color : red;
+    font-size: xx-large;
+  }
+  #demo2 {
+    color : black;
+    font-size: xx-large;
+  }
+  #rimanenti {
+    color : black;
+    font-size: xx-large;
+  }
+  #vittoria {
+    color : black;
+    font-size: xx-large;
+  }
+  #resocontoPartita {
+    background-image: url("../immagini/sfondo1.jpg");
+    background-size: cover; /* Adatta l'immagine alle dimensioni dello schermo */
+    background-repeat: no-repeat;
+    background-position: center; 
+  }
+  #classifiche {
+    background-color: aquamarine;
+    width: 400px;
+  }
+ 
